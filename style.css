@@ -1,0 +1,292 @@
+body{
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.header{
+  background-image: url("code.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  height: 60vh;
+  width: 100%;
+}
+
+.course-title{
+  margin-top: 0;
+  color: white;
+  text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -1px -1px 0 #000;                        
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  top: 30%;
+  font-size: 55px;
+  text-align: center;
+}
+
+.line {
+  border-left: 10px solid #F6A200;
+  height:55px;
+  position: absolute;
+  left: 20%;
+  top: 19%;
+}
+
+.description{
+  height: auto;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-title{
+  font-family: 'Oswald', sans-serif;
+  color: #131F33;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-right: 50px;
+}
+
+.text{
+  color: #203354;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+.extra-info{
+  background-color: rgba(51, 110, 123, 0.4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info-container{
+  width: 60vw;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.div__arrow--duration, .div__arrow--price, .div__arrow--modality, .div__arrow--calendar {
+  color: #BE7500;
+  border: none;
+  background-color: transparent;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.div__arrow--collapse {
+  transform: rotate(180deg);
+}
+
+.div__title {
+  font-family: 'Oswald', sans-serif;
+  color: #131F33;
+  font-size: 20px;
+  margin: 5px 0; 
+}
+
+.div__closed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.div__open {
+  padding-bottom: 10px;
+}
+
+.extra-text{
+  color: #203354;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 5%;
+  background-color: #F6A200; 
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #203354;
+  font-size: 15px;
+  border: 1px solid white;
+  margin-bottom: 5px;
+}
+
+.important-info{
+  background-color: #F6A200;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper{
+  width: 60vw;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.important-info-title{
+  font-family: 'Oswald', sans-serif;
+  color: #131F33;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.important-info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobs{
+  padding-right: 20px;
+}
+
+.companies{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.vacancies{
+  padding-left: 20px;
+}
+
+.important-title{
+  font-family: 'Oswald', sans-serif;
+  color: #203354;
+  font-size: 26px;
+  margin: 5px 0; 
+  text-align: center;
+}
+
+.important-text{
+  color: #203354;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer{
+  background-color: #131F33; 
+  height: 170px;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.university{
+  margin-top: 40px; 
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.icon-list{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px; 
+}
+
+#footer-icon{
+  color: white;
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .header{ 
+    height: 40vh;
+  }
+  
+  .course-title{
+    top: 40%;
+    font-size: 70px;
+  }
+  
+  .line {
+    height:70px;
+    left: 8%;
+    top: 17%;
+  }
+  
+  .description{
+    height: 60vh;
+  }
+  
+  .description-title{
+    margin-top: 10px;
+  }
+  
+  .extra-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer{
+    height: 100px;
+  }
+  
+  .icon-list{
+    margin-top: 30px;
+  }
+
+}
+
+ @media all and (min-width: 1200px) {
+.header{
+  height: 50vh;
+}
+
+.course-title{ 
+  top: 40%;
+  font-size: 60px; 
+}
+
+.line {
+  height: 60px;
+  left: 29%;
+  top: 21%;
+}
+
+.description{
+  height: 50vh;
+}
+
+.important-info-container{
+  flex-direction: row;
+}
+
+.university{
+  padding-left: 20px;
+}
+
+.icon-list{
+  margin-top: 40px;
+  padding-right: 20px; 
+}
+} 
