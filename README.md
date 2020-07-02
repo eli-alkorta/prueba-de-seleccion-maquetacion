@@ -1,3 +1,3 @@
 # prueba-de-seleccion-maquetacion
 
-![Mquetación responsive](/code.png)
+![Mquetación responsive](/test-maquetacion.png)
